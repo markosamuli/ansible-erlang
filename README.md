@@ -1,9 +1,11 @@
 erlang
 ======
 
-[![Build Status](https://travis-ci.org/kbrebanov/ansible-erlang.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-erlang)
+[![Build Status](https://travis-ci.org/markosamuli/ansible-erlang.svg?branch=master)](https://travis-ci.org/markosamuli/ansible-erlang)
 
 Installs Erlang.
+
+This is a fork from [kbrebanov.erlang](https://github.com/kbrebanov/ansible-erlang) role.
 
 Requirements
 ------------
@@ -28,7 +30,7 @@ Example Playbook
 ```yaml
 - hosts: all
   roles:
-    - kbrebanov.erlang
+    - markosamuli.erlang
 ```
 
 License
